@@ -1,0 +1,63 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    background-color: darkgray;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#gameBoard {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    margin: 20px;
+}
+
+.card {
+    width: 80px;
+    height: 80px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #108a10;
+    font-size:30px;
+    color: #ff0000;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.hidden {
+    background-color: #000;
+    color: #000;
+}
+
+.matched {
+    background-color: #00ff00;
+}
+.button,
+#resetBtn {
+    width: 30%;
+    height: 50px;
+    background-color:rgb(223, 76, 22);
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    font-size: 25px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button:hover,
+#resetBtn:hover {
+    background-color:brown;
+}
+
+.button:active,
+#resetBtn:active {
+    background-color:burlywood;
+}
